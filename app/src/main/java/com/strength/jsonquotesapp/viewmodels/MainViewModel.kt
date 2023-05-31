@@ -16,7 +16,7 @@ class MainViewModel(private val appContext : Context) : ViewModel() {
     }
 
     private fun loadQuotesFromAssetsFolder() : Array<Quote> {
-        val inputStream = appContext.assets.open("quotes_bk.json")
+        val inputStream = appContext.assets.open("quotes.json")
         val fileSize = inputStream.available()
         val buffer = ByteArray(fileSize)
 
