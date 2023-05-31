@@ -58,11 +58,11 @@
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/create_quote_floating_action_button_MA"
+        android:id="@+id/share_quote_floating_action_button_MA"
         android:layout_below="@id/quote_linear_layout_MA"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="25dp"
-        android:src="@android:drawable/ic_input_add"
+        android:src="@android:drawable/ic_menu_share"
         android:layout_marginEnd="50dp" />
 
 
