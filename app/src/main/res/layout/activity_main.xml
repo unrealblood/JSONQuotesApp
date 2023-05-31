@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/quote_linear_layout_MA"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@color/design_default_color_primary_dark"
+        android:layout_marginHorizontal="50dp">
+
+        <TextView
+            android:id="@+id/quote_text_MA"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="This is preview text" />
+
+    <LinearLayout
+        android:id="@+id/quote_author_linear_layout_MA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="10dp">
+
+        <TextView
+            android:id="@+id/quote_author_text_MA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginVertical="10dp"
+            android:text="Author : " />
+
+        <TextView
+            android:id="@+id/quote_author_name_text_MA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_marginVertical="10dp"
+            android:text="XYZ" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_quote_floating_action_button_MA"
+        android:layout_below="@id/quote_linear_layout_MA"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:src="@android:drawable/ic_input_add"
+        android:layout_marginEnd="50dp" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/previous_quote_button_MA" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="25dp"
+        android:id="@+id/next_quote_button_MA" />
+
+</RelativeLayout>
