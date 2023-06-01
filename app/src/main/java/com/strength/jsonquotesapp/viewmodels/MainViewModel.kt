@@ -1,6 +1,7 @@
 package com.strength.jsonquotesapp.viewmodels
 
 import android.content.Context
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import com.google.gson.Gson
 import com.strength.jsonquotesapp.data.Quote
